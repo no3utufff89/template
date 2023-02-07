@@ -3,11 +3,33 @@
     width: 100%;
 }
 
+.slick-slide {}
+
 
 /* Лента слайдов */
 
 .slick-track {
     display: flex;
+}
+
+@media (min-width:1000px) {
+    .slick-slide {
+        max-width: 166px;
+    }
+    .slick-track {
+        column-gap: 50px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1250px) {
+    .slick-track {
+        justify-content: center;
+        column-gap: 50px;
+    }
+    .slick-slide {
+        max-width: 196px;
+    }
 }
 
 
