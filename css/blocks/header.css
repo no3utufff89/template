@@ -17,12 +17,22 @@
     font-size: 21px;
     line-height: 25px;
     margin-bottom: 4px;
+    transition: 0.3s;
+}
+
+.contacts__phone:hover {
+    color: var(--main-light-blue);
 }
 
 .contacts__callback {
     position: relative;
     font-size: 13px;
     line-height: 15px;
+    transition: 0.3s;
+}
+
+.contacts__callback:hover {
+    color: var(--main-light-blue);
 }
 
 .contacts__callback::after {
